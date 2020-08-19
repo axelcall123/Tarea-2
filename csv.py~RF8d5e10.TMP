@@ -1,0 +1,5 @@
+import csv
+with open('dat.csv') as f:
+    reader = csv.reader(f)
+    for row in reader:
+        print("name: {0}, address: {1}, date joined: {2}".format(row[0], row[1], row[2]))

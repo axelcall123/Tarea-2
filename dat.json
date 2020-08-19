@@ -1,6 +1,26 @@
 {
-  "nombre":"Maria",
-  "apellido":"Victoria",
-  "edad":"15",
-  "sexo":"Femenino";
+  "nombre":[
+    "alex",
+    "maria",
+    "juan",
+    "masha"
+  ],
+  "apellido":[
+    "lopez",
+    "perez",
+    "lourde",
+    "españa"
+  ],
+  "color":[
+    "rojo",
+    "verde",
+    "azul",
+    "amarillo"
+  ],
+  "edad":[
+    12,
+    13,
+    14,
+    18
+  ]
 }
