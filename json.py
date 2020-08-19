@@ -7,4 +7,4 @@ for i in objeto:
     for a in objeto[i]:
         print(a)
     #print(i)
-print(type(miarchivo))
+print("tipo: ", type(objeto))

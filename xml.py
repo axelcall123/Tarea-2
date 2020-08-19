@@ -1,8 +1,10 @@
 import xml.etree.ElementTree as ET
-tree = ET.parse('dat.xml')
-root = tree.getroot()
+xml = ET.parse('dat.xml')
+root = xml.getroot()
 
-print(type(tree))
+print(type(xml))
 for elem in root:
    for subelem in elem:
       print(subelem.text)
+
+print("tipo: ", type(root))
