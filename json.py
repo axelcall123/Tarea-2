@@ -12,7 +12,7 @@ for i in objeto:
         print("     ",a)
     #print(i)
 #print("------------------------------")
-#def readJson():
+#def readJson():xd
 #    file=open('dat.json')
 #    data=json.load(file)
 #    file.close()
