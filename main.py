@@ -11,7 +11,7 @@ print("")
 import json
 with open('dat.json','r') as miarchivo:
     datos=miarchivo.read()
-#objeto=json.loads(datos)
+objeto=json.loads(datos)
 #for i in objeto['nombre']:
 print("-----OBJETO------","tipo: ", type(objeto))
 print(objeto)
